@@ -1,0 +1,5 @@
+-r requirements.txt
+# Install compatible torch / torchvision wheels as a pair.
+# See https://pytorch.org/get-started/locally/ for platform-specific wheels.
+torch>=2.2,<3
+torchvision>=0.17,<1

@@ -1,0 +1,57 @@
+{
+  "task": "synthetic 3D spheres; no real-data claim",
+  "seeds": {
+    "model": 42,
+    "train": 11,
+    "validation": 22,
+    "test": 33
+  },
+  "spacing_dhw_mm": [
+    1,
+    1,
+    1
+  ],
+  "shape_dhw": [
+    24,
+    24,
+    24
+  ],
+  "selected_threshold": 0.5,
+  "validation_best_dice": 0.9650182723999023,
+  "test_dice_model_per_case": [
+    0.9578059315681458,
+    0.929427444934845,
+    0.9527593851089478,
+    0.9644728899002075
+  ],
+  "test_dice_baseline_per_case": [
+    0.8361809253692627,
+    0.7964823842048645,
+    0.9053601622581482,
+    0.8943544030189514
+  ],
+  "test_model_mean": 0.9511164128780365,
+  "test_baseline_mean": 0.8580944687128067,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.3619970480600994,
+      "validation_dice": 0.862716555595398
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.8657759726047516,
+      "validation_dice": 0.9603267312049866
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.38186466693878174,
+      "validation_dice": 0.9650182723999023
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.15421506886680922,
+      "validation_dice": 0.9228677749633789
+    }
+  ]
+}
